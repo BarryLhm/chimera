@@ -1,0 +1,14 @@
+[font]
+size=11.0
+[font.normal]
+family = "Caskaydia Mono NF"
+style = "Regular"
+[font.bold]
+family = ""
+style = "Bold"
+[font.italic]
+family = ""
+style = "Italic"
+[font.bold_italic]
+family = ""
+style = "Bold Italic"
