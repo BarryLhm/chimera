@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Alacritty
+Comment=Alacritty
+Exec=cage -s alacritty
+Type=Application
