@@ -73,6 +73,7 @@ wayland-devel
 wayland-protocols
 xcb-util-errors-devel
 xcb-util-renderutil-devel
+xdg-user-dirs
 xfce4-terminal
 xfsprogs
 xwayland
