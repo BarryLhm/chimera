@@ -99,6 +99,7 @@ xcb-util-renderutil-devel
 xcb-util-wm-devel
 xdg-user-dirs
 xfce4-panel
+xfce4-session
 xfce4-settings
 xfce4-taskmanager
 xfce4-terminal
