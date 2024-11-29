@@ -1,3 +1,0 @@
-#!/bin/sh
-yadm add $(yadm list)
-exec yadm commit -m update

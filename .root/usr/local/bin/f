@@ -1,0 +1,9 @@
+#!/bin/sh
+app="$1";shift;case "$app" in
+'')echo 'Flatpak quick launcher';echo 'Usage: f appname ...'
+;;steam|st)	app=com.valvesoftware.Steam 
+;;steamlink|sl)	app=com.valvesoftware.SteamLink
+;;thunder|xl)	app=com.xunlei.Thunder
+;;turbowarp|tw)	app=org.turbowarp.TurboWarp
+;;wechat|wx)	app=com.tencent.WeChat
+;;*)true;esac;flatpak run "$app" "$@" 2>/dev/null &
