@@ -1,9 +1,8 @@
 #!/bin/sh
-app="$1";shift;case "$app" in
-'')echo 'Flatpak quick launcher';echo 'Usage: f appname ...'
+case "$1" in -k)cmd=kill;;-u)cmd=update;;-i)cmd=install;;*)cmd=run;esac;[ $cmd == run ]||shift;case "$1" in '')echo Flatpak quick launcher;echo Usage: f [-kui] appname ...;exit 1
 ;;steam|st)	app=com.valvesoftware.Steam 
 ;;steamlink|sl)	app=com.valvesoftware.SteamLink
 ;;thunder|xl)	app=com.xunlei.Thunder
 ;;turbowarp|tw)	app=org.turbowarp.TurboWarp
 ;;wechat|wx)	app=com.tencent.WeChat
-;;*)true;esac;flatpak run "$app" "$@" 2>/dev/null &
+;;*)app="$1";esac;shift;exec flatpak "$cmd" "$app" "$@"
