@@ -1,0 +1,2 @@
+#!/bin/sh
+exec flatpak run org.turbowarp.TurboWarp "$@" >/dev/null 2>/dev/null
