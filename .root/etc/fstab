@@ -1,0 +1,8 @@
+# See fstab(5).
+#
+# <file system>                             <dir>   <type> <options>                                         <dump> <pass>
+  UUID=6df3bf97-2e5f-4ff3-89b2-9a6e76f69b58 /       xfs    rw,noatime                                        0      1
+  UUID=A1E7-021C                            /boot   vfat   rw,noatime                                        0      2
+  UUID=E6F67A5CF67A2CC5                     /shared ntfs   rw,gid=2,umask=0002,sparse,windows_names,prealloc 0      0
+# <source> <target>             none bind <options> 0 0
+  /        /home/barrylhm/.root none bind,          0 0
