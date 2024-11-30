@@ -27,6 +27,7 @@ ethtool
 fastfetch
 fdisk
 feh
+ffmpeg
 file
 firefox
 fish-shell
@@ -40,6 +41,7 @@ fonts-noto-sans-cjk-extra
 fonts-noto-serif-cjk-extra
 fstrim
 gamescope
+gcompat
 git
 github-cli
 glslang-devel
@@ -53,6 +55,7 @@ iproute2
 iputils
 iw
 iwd
+java-jre-openjdk17-default
 kwin
 labwc
 libdisplay-info-devel
@@ -65,9 +68,12 @@ libzip-devel
 linux-stable
 llvm
 lscpu
+lsof
+luanti
 man-pages
 mesa-devel
 mkfs
+mpv
 nano
 networkmanager
 nodejs
@@ -80,6 +86,7 @@ pipewire
 pixman-devel
 pkgconf
 plan9port
+prismlauncher
 pugixml-devel
 rfkill
 smartmontools
@@ -108,4 +115,5 @@ xkbcomp-devel
 xwayland
 xwaylandvideobridge
 yadm
+zip
 zramctl
