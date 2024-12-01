@@ -1,0 +1,9 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <dev>                                   <dir> <fs>   <options>                                <dump> <pass>
+UUID=8efe1d46-7cff-4f5a-adc5-e77665402354 /     xfs    rw,relatime                              0      1
+UUID=8649-3D2F                            /boot vfat   rw,relatime,umask=0022,errors=remount-ro 0      2
+UUID=13243073-3c05-4b17-a447-06e7ca6649b8 none  swap   defaults                                 0      0
+
+/ /home/barrylhm/.root_archlinux none bind,ro 0 0
