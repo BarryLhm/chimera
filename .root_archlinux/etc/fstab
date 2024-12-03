@@ -7,3 +7,4 @@ UUID=8649-3D2F                            /boot vfat   rw,relatime,umask=0022,er
 UUID=13243073-3c05-4b17-a447-06e7ca6649b8 none  swap   defaults                                 0      0
 
 / /home/barrylhm/.root_archlinux none bind,ro 0 0
+/ /home/barrylhm/.root_common none bind,ro 0 0
