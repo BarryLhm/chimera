@@ -1,4 +1,2 @@
 #!/bin/sh
-for i in $(yadm list -a)
-do yadm add "$HOME"/"$i"
-done
+cd;exec yadm add $(yadm list -a)
