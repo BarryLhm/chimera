@@ -1,0 +1,9 @@
+# See fstab(5).
+#
+# <file system>                             <dir>     <type> <options>                                         <dump> <pass>
+  UUID=6ad25c8e-33b2-4af3-8f49-d477dad5fbc1 /         xfs    rw,noatime                                        0      1
+  UUID=F476-DC8A                            /boot/efi vfat   rw,noatime,umask=0022                             0      2
+  UUID=E6F67A5CF67A2CC5                     /shared   ntfs3  rw,gid=2,umask=0002,sparse,windows_names,prealloc 0      0
+# <source> <target>                    [none bind]<options>[0 0]
+  /        /home/barrylhm/.root_chimera none bind,          0 0
+  /        /home/barrylhm/.root_common  none bind,          0 0
