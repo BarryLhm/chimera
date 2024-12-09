@@ -32,6 +32,9 @@ firefox
 fish-shell
 flatpak
 font-manager
+fonts-monaspace-otf><Q1PBW4wqPXO1q8HQ4X31nIiXZ7nO0=
+fonts-monaspace-otf-doc><Q1f7H9Zmi8X3+/EqgkzdyhsR9givU=
+fonts-nerd-symbols-only
 fonts-noto-emoji-ttf
 fonts-noto-extra
 fonts-noto-sans-cjk-extra
@@ -52,6 +55,7 @@ iwd
 java-jre-openjdk17-default
 kwin
 labwc
+lighttpd
 linux-lts
 linux-stable
 llvm
@@ -60,9 +64,11 @@ lsof
 luanti
 man-pages
 mkfs
+mousepad
 mpv
 nano
 networkmanager
+nginx
 nodejs
 nyagetty
 opendoas
@@ -70,8 +76,10 @@ openssh
 pciutils
 pipewire
 pkgconf
+plasma-desktop
 rfkill
 smartmontools
+strace
 swww
 syslog-ng
 systemsettings
@@ -81,7 +89,9 @@ usbutils
 util-linux
 wget
 xdg-user-dirs
+xdg-utils
 xfce4-panel
+xfce4-terminal
 xfsprogs
 xwayland
 xwaylandvideobridge
