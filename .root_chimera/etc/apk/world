@@ -82,9 +82,12 @@ smartmontools
 strace
 swww
 syslog-ng
-systemsettings
 traceroute
 tuigreet
+ucode-amd
+ucode-amd-full
+ucode-intel
+ucode-intel-full
 usbutils
 util-linux
 wget
