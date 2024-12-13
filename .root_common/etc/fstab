@@ -4,7 +4,7 @@
   UUID=8a0666bc-0c0e-441f-854f-36b7c0dcf0cf /         xfs    rw,noatime                                        0      1
   UUID=38E2-8CB9                            /boot/efi vfat   rw,noatime,umask=0022                             0      2
   UUID=d1c3d75b-7307-4519-8fe3-b68d6de35db2 none      swap   defaults                                          0      0
-  UUID=E6F67A5CF67A2CC5                     /shared   ntfs3  rw,gid=2,umask=0002,sparse,windows_names,prealloc 0      0
+  UUID=E6F67A5CF67A2CC5                     /storage  ntfs3  rw,gid=2,umask=0002,sparse,windows_names,prealloc 0      0
 # <source> <target>                    [none bind]<options>[0 0]
   /        /home/barrylhm/.root_chimera none bind,          0 0
   /        /home/barrylhm/.root_common  none bind,          0 0
