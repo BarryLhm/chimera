@@ -1,3 +1,5 @@
+!
+7zip
 alacritty
 android-tools
 asciinema
@@ -53,6 +55,7 @@ iputils
 iw
 iwd
 java-jre-openjdk17-default
+konqueror
 kwin
 labwc
 lighttpd
@@ -93,6 +96,7 @@ util-linux
 wget
 xdg-user-dirs
 xdg-utils
+xeyes
 xfce4-panel
 xfce4-terminal
 xfsprogs
