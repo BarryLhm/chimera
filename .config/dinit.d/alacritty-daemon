@@ -1,0 +1,8 @@
+# alacritty daemon
+type                = process
+command             = /usr/bin/alacritty --daemon
+restart             = true
+termsignal          = HUP
+restart-delay       = 1.0
+restart-limit-count = 100
+smooth-recovery     = true
