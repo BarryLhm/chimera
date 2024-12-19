@@ -79,6 +79,7 @@ power-profiles-daemon
 rfkill
 smartmontools
 snapper
+steam-devices-udev
 strace
 swww
 syslog-ng
